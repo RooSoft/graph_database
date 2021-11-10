@@ -24,3 +24,6 @@ graph_database-*.tar
 
 # Temporary files, for example, from tests.
 /tmp/
+
+# The executable
+/graph_database
