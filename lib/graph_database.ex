@@ -1,18 +1,5 @@
 defmodule GraphDatabase do
-  @moduledoc """
-  Documentation for `GraphDatabase`.
-  """
-
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> GraphDatabase.hello()
-      :world
-
-  """
-  def hello do
-    :world
+  def main(_args) do
+    IO.puts "Ready to accept neo4j code"
   end
 end
