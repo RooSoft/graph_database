@@ -27,3 +27,5 @@ graph_database-*.tar
 
 # The executable
 /graph_database
+
+/config/config.exs
