@@ -1,0 +1,4 @@
+#! /bin/bash
+
+# inspired by this: https://programminghistorian.org/en/lessons/json-and-jq#output-a-csv-csv
+cat $1 | jq -r '["channel_id", "node1_pub", "node2_pub", "capacity"], (.edges[] | [.channel_id, .node1_pub, .node2_pub, .capacity]) | @csv'
