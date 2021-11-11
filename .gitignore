@@ -29,3 +29,5 @@ graph_database-*.tar
 /graph_database
 
 /config/config.exs
+
+/priv/data
